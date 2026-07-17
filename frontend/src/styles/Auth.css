@@ -1,0 +1,150 @@
+/* ==========================
+   AUTH PAGE
+========================== */
+
+.auth-page {
+    min-height: 100vh;
+    display: flex;
+    background: #eef4fb;
+}
+
+/* Left Side */
+
+.auth-left {
+    flex: 1;
+    background: linear-gradient(135deg,#0b5ed7,#0d6efd);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px;
+}
+
+.auth-content h1 {
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.auth-content p {
+    font-size: 20px;
+    line-height: 1.8;
+    margin-bottom: 40px;
+}
+
+.auth-content ul {
+    list-style: none;
+    padding: 0;
+}
+
+.auth-content li {
+    font-size: 18px;
+    margin-bottom: 18px;
+}
+
+/* Right Side */
+
+.auth-right {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: white;
+}
+
+/* Card */
+
+.auth-card {
+    width: 430px;
+    padding: 45px;
+    border-radius: 15px;
+    box-shadow: 0 10px 35px rgba(0,0,0,.1);
+}
+
+/* Logo */
+
+.auth-logo {
+    width: 75px;
+    height: 75px;
+    background: #0d6efd;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    font-size: 34px;
+    margin-bottom: 25px;
+}
+
+/* Headings */
+
+.auth-title {
+    text-align: center;
+    color: #1d3557;
+    font-weight: bold;
+}
+
+.auth-subtitle {
+    text-align: center;
+    color: gray;
+    margin-bottom: 30px;
+}
+
+/* Inputs */
+
+.form-control,
+.form-select {
+    height: 50px;
+    border-radius: 10px;
+}
+
+.form-control:focus,
+.form-select:focus {
+    border-color: #0d6efd;
+    box-shadow: none;
+}
+
+/* Button */
+
+.auth-btn {
+    background: #0d6efd;
+    border: none;
+    height: 50px;
+    border-radius: 10px;
+    font-weight: 600;
+}
+
+.auth-btn:hover {
+    background: #0b5ed7;
+}
+
+/* Footer */
+
+.auth-footer {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.auth-footer a {
+    text-decoration: none;
+    font-weight: 600;
+}
+
+/* Mobile */
+
+@media(max-width:992px){
+
+.auth-left{
+display:none;
+}
+
+.auth-right{
+width:100%;
+}
+
+.auth-card{
+width:90%;
+}
+
+}

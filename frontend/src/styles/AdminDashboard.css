@@ -1,0 +1,49 @@
+body{
+    background:#f5f7fb;
+}
+
+.table{
+    background:white;
+}
+
+.table th{
+    white-space:nowrap;
+}
+
+.btn{
+    transition:.3s;
+}
+
+.btn:hover{
+    transform:translateY(-2px);
+}
+
+@media(max-width:991px){
+
+.container-fluid{
+padding:15px;
+}
+
+}
+
+@media(max-width:768px){
+
+h2{
+font-size:28px;
+text-align:center;
+}
+
+h3{
+font-size:22px;
+text-align:center;
+}
+
+.btn{
+margin-bottom:10px;
+}
+
+.table{
+font-size:14px;
+}
+
+}
